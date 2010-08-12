@@ -1,0 +1,68 @@
+body{color:#233239;background-color:#f4f4f1;font-family:Arial, Helvetica, sans-serif;margin:0;padding:0}
+#cont{width:1000px;background-color:#fff;margin:auto}
+#logo{background-position:0 0;height:70px;width:274px;float:left;margin:10px 0 10px 10px}
+#ph{font-weight:700;font-size:18px;float:right;width:200px;text-align:right;margin:24px 23px 0 0}
+#m{width:644px;list-style-type:none;font-size:12px;clear:both;display:block;background-position:0 -73px;text-transform:uppercase;height:28px;float:right;margin:0 24px 0px 0;padding:0}
+#m li{display:block;float:left;background-image:url(/app/public/img/sprite.jpg);background-repeat:no-repeat;background-position:-30px -73px;padding:7px 0 6px}
+#m li.first{background-position:0 -73px}
+#m li.firstcur{background-position:0 -103px}
+#m li.cur{background-position:-10px -103px}
+#m li.last{background-position:right -73px}
+#m li.lastcur{background-position:right -103px}
+#m_h{width:64px}
+#m_prod{width:92px}
+#m_prodd{width:180px}
+#m_prof{width:185px}
+#m_t{width:120px}
+#m li a{color:#87847f;font-weight:700;text-decoration:none;display:block;padding:0 13px 0;text-align:center;}
+#main{line-height:18px;background-color:#e0e0e0;width:984px;clear:both;padding-bottom:12px;font-size:12px;margin:auto}
+#col1{float:left;width:663px}
+#col1b{float:left;width:242px}
+#col2{float:left;width:294px;margin:12px 0 0 14px}
+#col2b{float:left;width:742px;margin:0}
+#main .bbox{width:639px;background-color:#fff;float:left;margin:12px 12px 0;padding:7px}
+#col1b .bbox{width:215px}
+#col2b .bbox{width:703px}
+#main .sbox{width:280px;background-color:#fff;margin-bottom:14px;padding:7px}
+#main .sbox .r2{background-color:#a1c2c9;color:#fff;border:solid 1px #a1c2c9;background-image:url(/app/public/img/headingbg.gif);background-repeat:repeat-x;padding:7px}
+#f{background-color:#bfbfbf;color:#fff;font-size:11px;width:984px;margin:auto}
+#f ul{list-style-type:none;float:left;width:200px;margin:0;padding:7px 0 7px 14px}
+#f ul li{margin-bottom:3px}
+#fr{text-align:right;float:right;width:300px;margin:79px 15px 0 0}
+.spr{background-image:url(/app/public/img/sprite.jpg);background-repeat:no-repeat}
+.rt{-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;-moz-border-radius-topleft:10px;-moz-border-radius-topright:10px;border-top-left-radius:10px;border-top-right-radius:10px;}
+.r2{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+br.clear{clear:both}
+p{margin:0 0 12px}
+h1,h2,h3{font-family:HelveticaNeue-Light, "Helvetica Neue Light", Helvetica, Arial, sans-serif;font-weight:400;}
+h1{font-size:24px;color:#ee3020;margin:10px 0 10px 0px}
+h2{font-size:20px;color:#ee3020;margin:10px 0 10px 0px}
+h3{font-size:14px;color:#ee3020;}
+#col2 .sbox h2{font-size:24px;margin:-3px 0 10px;color:#fff}
+.bold{font-weight:bold}
+#m li.lastcur a,#m li.firstcur a,#m li.cur a,#main .sbox a,#f a{color:#fff}
+#news{background-color:#efefe7;font-weight:700;position:relative}
+#news ul{width:355px;list-style-type:none;position:absolute;top:0;right:0;z-index:2;margin:0}
+#news ul li a{margin-left:60px;display:block;height:54px;text-decoration:none;color:#233239;padding:20px 12px 0 61px}
+#news ul li a.cur{background-image:url(/app/public/img/arrow.png);color:#fff}
+#newsimg{background-image:url(/app/public/img/news.jpg);height:222px;width:393px;-webkit-border-top-left-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-bottomleft:5px;border-top-left-radius:5px;border-bottom-left-radius:5px}
+#f #social{float:right;width:122px;margin:0;padding:0}
+#social li{width:27px;height:29px;float:left;margin-left:3px}
+#social li a{display:block;width:27px;height:29px}
+#fb{background-position:-12px -139px}
+#tw{background-position:-49px -139px}
+#li{background-position:-86px -139px}
+#social #rss{background-position:-123px -139px; width:28px;}
+#social #rss a{width:28px}
+#logo span,#social li span{z-index:-1;position:absolute;left:-3000px}
+#submenu, #submenu ul{list-style-type:none;margin:0;padding:0}
+#submenu ul{list-style:none}
+#submenu .curi{font-weight:bold;background-color:#ee3020}
+#submenu li{background-color:#c4c4cc;border-bottom:solid 1px #fff}
+#submenu li a{display:block;padding:4px 8px;color:#21323a;text-decoration:none}
+#submenu .curi a{color:#fff}
+#submenu ul li a{padding-left:15px}
+#submenu ul li ul li a{padding-left:30px}
+#submenu ul li ul li ul li a{padding-left:45px}
+#submenu li.exp{border:0}
+#submenu .curi ul,#submenu .curi ul a{font-weight:normal;color:#21323a}

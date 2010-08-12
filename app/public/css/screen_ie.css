@@ -1,0 +1,8 @@
+#main,.bbox,.sbox{position:relative}
+#main > .tl,#main > .tr,#main > .bl,#main > .br,#col1 > .bbox .tl,#col1 > .bbox .tr,#col1 > .bbox .bl,#col1 > .bbox .br,#col2 > .sbox .tl,#col2 > .sbox .tr,#col2 > .sbox .bl,#col2 > .sbox .br{width:6px;height:6px;position:absolute}
+#main > .tl{background:url(/app/public/img/corners.gif) top left no-repeat;top:0;left:0;width:10px;height:10px}
+#main > .tr{background:url(/app/public/img/corners.gif) no-repeat;top:0;right:0;width:10px;height:10px;background-position:-20px 0}
+#col1 > .bbox .tl,#col2 > .sbox .tl{background:url(/app/public/img/corners.gif) no-repeat;top:0;left:0;background-position:-1px -32px}
+#col1 > .bbox .tr,#col2 > .sbox .tr{background:url(/app/public/img/corners.gif) no-repeat;top:0;right:0;background-position:-15px -32px}
+#col1 > .bbox .bl,#col2 > .sbox .bl{background:url(/app/public/img/corners.gif) no-repeat;bottom:0;left:0;background-position:-1px -46px}
+#col1 > .bbox .br,#col2 > .sbox .br{background:url(/app/public/img/corners.gif) no-repeat;bottom:0;right:0;background-position:-15px -46px}
